@@ -1,0 +1,38 @@
+
+body{
+    background-color: #f2f2f2;
+}
+form{
+    margin-left: 20px;
+    padding-left: 230px; 
+}
+.design{
+    padding: 10px;
+    width: 800px;
+    margin: 10px;
+}
+#submit{
+    width: 825px;
+    background-color:#4CAF50;;
+    border: none;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 820px;
+    border-color:black;
+}
+label{
+    padding: 12px;
+}
+.importent{
+    font-weight: bold;
+}
+#submit:hover{
+    background-color:  #45a049;
+}
+.design:focus{
+    background-color: lightblue;
+}

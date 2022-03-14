@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="RegForm.css">
+        <title>Registeration Form</title>
+
+    </head>
+    <body>
+        <div class="main">
+            <h1>Student Registeration Form</h1>
+            <hr>
+            <form action="" method="post">
+                <label>Firstname:</label><br>
+                <input type="text" name="fname" placeholder="Firstname" required class="design"><br>
+                <label>Middlename:</label><br>
+                <input type="text" name="mname" placeholder="Middlename" required class="design"><br>
+                <label>Lastname:</label><br>
+                <input type="text" name="lname" placeholder="Lastname" required class="design"><br>
+                <label>Course:</label>
+                <select name="course">
+                    <option selected>Course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                    <option value="php">PHP</option>
+                </select><br>
+                <label>Gender:</label><br>
+                <input type="radio" value="male" name="gender" checked required>Male
+                <input type="radio" value="female" name="gender" required>Female
+                <input type="radio" value="other" name="gender" required>Other<br>
+                <label>Phone:</label><br>
+                <input type="tel" name="" value="+93" required pattern="[+0-9]{10}" class="design"><br>
+                <input type="tel" name="" placeholder="Phone no." pattern="[+.0-9]{10}" class="design"><br>
+                <label>Current Address:</label><br>
+                <textarea name="Message" cols="30" rows="8" class="design">Current Address
+                </textarea><br>
+                <label class="importent">Email:</label><br>
+                <input type="email" name="email" required class="design"><br>
+                <label class="importent">Password:</label><br>
+                <input type="password" name="password"    required pattern="[A-Za-z0-9]{5}" class="design"><br>
+                <label class="importent">Re-type password:</label><br>
+                <input type="password" name="rtpassword"  required pattern="[A-Za-z0-9]{5}" class="design"><br>
+                <input type="submit" value="Register" class="design" id="submit">
+
+            </form>
+
+        </div>
+    </body>
+</html>
